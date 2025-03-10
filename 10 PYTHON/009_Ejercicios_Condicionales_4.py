@@ -18,7 +18,12 @@ if total_compra > 1000:
     # Redondea el total final a pagar a dos decimales
     total_final_redondeado = round(total_final, 2)
     # Imprime el total final a pagar y el descuento aplicado
+    
     print(f"Se aplicó un descuento de ${descuento_redondeado}, total a pagar: ${total_final_redondeado}")
+
+    # Otra opción para escribir la función print con variables por medio
+    
+    print ("Se aplicó un descuento de $ " + descuento_redondeado + "total a pagar: " + total_final_redondeado)
 else:
     # Si no se aplica descuento, el total a pagar es el mismo que el total de la compra
     # Redondea el total de la compra a dos decimales
