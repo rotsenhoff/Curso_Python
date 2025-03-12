@@ -7,7 +7,7 @@
 edad = 0
 while edad < 18: 
     edad=edad+1
-print("Tienes "+str(edad))
+    print("Tienes "+str(edad))
 
 #   Pregunta la edad mientras sea negativa
 
