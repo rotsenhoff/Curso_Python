@@ -29,9 +29,10 @@ print(miTupla[-1])
 miTupla = ("manzana", "banana", "cereza", "naranja", "kiwi", "melon", "mango")
 print(miTupla[2:5])
 
+miTupla = ("manzana", "banana", "cereza")
+
 #   Convierta la tupla en una lista para poder cambiarla:
 
-miTupla = ("manzana", "banana", "cereza")
 miLista = list(miTupla)
 miLista[1] = "kiwi"
 miTupla = tuple(miLista)
